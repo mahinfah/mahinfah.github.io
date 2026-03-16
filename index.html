@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WT_K</title>
+ 
+    <style>
+        body {
+            background-color: rgb(136, 245, 210);
+        }
+ 
+        h1 {
+            color: rgb(54, 33, 213);
+            text-align: center;
+        }
+ 
+        table {
+            margin-top: 20px;
+            border: 5px solid rgb(44, 25, 212);
+            padding: 40px;
+            background-color: rgb(231, 233, 238);
+            margin-left: auto;
+            margin-right: auto;
+        }
+ 
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+ 
+        .box {
+            width: 250px;
+            height: 35px;
+            text-align: center;
+        }
+ 
+        .button
+        {
+            width: 100%;
+            height: 40px;
+            font-size: 16px;
+            background-color: rgb(76, 101, 224);
+            border: none;
+            cursor: pointer;
+        }
+ 
+        .button:hover {
+            background-color: rgb(98, 150, 140);
+            color: white;
+        }
+ 
+    </style>
+</head>
+ 
+<body>
+ 
+    
+    <h1>Registration Form</h1>
+ 
+    <form>
+        <table>
+ 
+            <tr>
+                <td>1st Name:</td>
+                <td><input type="text" class="box" required></td>
+            </tr>
+ 
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" class="box"   required></td>
+            </tr>
+ 
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" class="box"   required></td>
+            </tr>
+ 
+            <tr>
+                <td>Age:</td>
+                <td><input type="number" class="box"  required></td>
+            </tr>
+ 
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date" class="box"  required></td>
+            </tr>
+ 
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Register"  class="button">
+                </td>
+            </tr>
+ 
+        </table>
+    </form>
+ 
+</body>
+</html>
