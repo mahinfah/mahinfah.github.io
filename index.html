@@ -55,7 +55,29 @@
  
     <form>
         
+    
     </form>
- 
+
+  <audio id="bgAudio" autoplay loop>
+    <source src="https://www.myinstants.com/en/instant/l-theme-death-note-4511/?utm_source=copy&utm_medium=share" type="audio/mpeg">
+  </audio>
+
+  <!-- Toggle button -->
+  <button onclick="toggleAudio()">🔊 Mute</button>
+
+  <script>
+    const audio = document.getElementById('bgAudio');
+
+    function toggleAudio() {
+      if (audio.muted) {
+        audio.muted = false;
+        this.textContent = '🔊 Mute';
+      } else {
+        audio.muted = true;
+        this.textContent = '🔇 Unmute';
+      }
+    }
+  </script>
+
 </body>
 </html>
